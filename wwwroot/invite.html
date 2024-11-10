@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма Приглашения</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Создать Приглашение</h1>
+    <form action="/invite" method="post">
+        <label for="name">Имя:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Номер Телефона:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>
